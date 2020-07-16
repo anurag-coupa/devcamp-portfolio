@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   resources :portfolios
-  get 'pages/Home'
-  get 'pages/About'
-  get 'pages/Contact'
+  get 'About-me', to: 'pages#About'
+  get 'Contact', to: 'pages#Contact'
   resources :blogs
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  # Setting the homepage
+  root to: 'pages#Home'
 end
