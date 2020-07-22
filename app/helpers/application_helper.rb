@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+
+  def copyright_generator
+    AnuragViewTool::Renderer.copyright 'Anurag Bhaskar', 'All Rights Reserved'
+  end
 end
