@@ -4,8 +4,8 @@ Rails.application.routes.draw do
 
   get 'angular-items', to: 'portfolios#angular'
   get 'portfolio/:id', to: 'portfolios#show', as: 'portfolio_show'
-  get 'About-me', to: 'pages#About'
-  get 'Contact', to: 'pages#Contact'
+  get 'about-me', to: 'pages#about'
+  get 'contact', to: 'pages#contact'
   resources :blogs do
     member do
       get :toggle_status
@@ -13,5 +13,5 @@ Rails.application.routes.draw do
   end
   
   # Setting the homepage
-  root to: 'pages#Home'
+  root to: 'pages#home'
 end
