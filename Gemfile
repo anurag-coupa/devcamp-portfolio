@@ -49,5 +49,6 @@ gem 'friendly_id', '~> 5.2.4'
 gem 'devise', '~> 4.7', '>= 4.7.2'
 gem 'bootstrap', '~> 4.5.0'
 gem 'jquery-rails'
+gem 'petergate', '~> 2.0', '>= 2.0.1'
 
 gem 'anurag_view_tool', git: 'https://github.com/anurag-coupa/anurag_view_tool'
