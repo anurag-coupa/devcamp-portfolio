@@ -153,10 +153,23 @@ body {
   }
 }
 
-@media (min-width: 62em) {
+@media (min-width: 65em) {
   .masthead,
   .mastfoot,
   .cover-container {
     width: 55rem;
   }
 }
+
+/*
+ * Custom styles
+ */
+
+ .card-block {
+    color: black; 
+    text-align: left;
+ }
+
+ .auth-links a {
+    color: black;
+ }
