@@ -5,9 +5,9 @@
 import 'bootstrap'
 import './src/application.scss'
 
-//= require rails-ujs
 //= require jquery
 //= require bootstrap-sprockets
+//= require jquery_ujs
 //= require turbolinks
 //= require_tree
 
@@ -20,3 +20,4 @@ import './src/application.scss'
 // const imagePath = (name) => images(name, true)
 //= require popper
 //= require bootstrap
+//= require rails-ujs
