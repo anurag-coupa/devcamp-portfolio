@@ -10,6 +10,10 @@ import './src/application.scss'
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree
+require('@rails/ujs').start();
+require('turbolinks').start();
+require('@rails/activestorage').start();
+require('channels');
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
@@ -21,3 +25,6 @@ import './src/application.scss'
 //= require popper
 //= require bootstrap
 //= require rails-ujs
+require('lib/following');
+require('trix');
+require('@rails/actiontext');
