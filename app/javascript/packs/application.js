@@ -8,12 +8,14 @@ import './src/application.scss'
 //= require jquery
 //= require bootstrap-sprockets
 //= require jquery_ujs
+//= require jquery-ui
 //= require turbolinks
 //= require_tree
 require('@rails/ujs').start();
 require('turbolinks').start();
 require('@rails/activestorage').start();
 require('channels');
+require('custom/html.sortable')
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
