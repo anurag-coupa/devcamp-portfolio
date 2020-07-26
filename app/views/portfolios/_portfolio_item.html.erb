@@ -1,9 +1,9 @@
-<div class="card">
-  <%= image_tag portfolio_item.thumb_image unless portfolio_item.thumb_image.nil? %>
+<div class="card" data-id="<%= x.id %>" >
+  <%= image_tag x.thumb_image unless x.thumb_image.nil? %>
   <p class="card-text">
     <span>
-      <%= link_to portfolio_item.title, portfolio_show_path(portfolio_item) %>
+      <%= link_to x.title, portfolio_show_path(x) %>
     </span>
-    <%= portfolio_item.subtitle %>
+    <%= x.subtitle %>
   </p>
 </div>
