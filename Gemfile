@@ -55,3 +55,4 @@ gem 'kaminari', '~> 1.2', '>= 1.2.1'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 
 gem 'anurag_view_tool', git: 'https://github.com/anurag-coupa/anurag_view_tool'
+gem "acts_as_list", "~> 1.0"
