@@ -1,4 +1,4 @@
-@import "bootstrap";
+@import "bootstrap/scss/bootstrap";
 
 /*
  * Globals
@@ -29,11 +29,10 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
 }
 body {
-  color: #fff;
-  text-align: center;
+  color: #fff !important;
+  text-align: center !important;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
 }
 
@@ -164,6 +163,10 @@ body {
 /*
  * Custom styles
  */
+
+ .bg-inverse{
+ background-color: black;
+ }
 
  .card-block {
     color: black; 
