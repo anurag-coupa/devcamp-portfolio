@@ -58,6 +58,8 @@ gem 'mini_magick', '~> 4.10', '>= 4.10.1'
 gem 'carrierwave-aws', '~> 1.5'
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
 gem 'cocoon', '~> 1.2', '>= 1.2.14'
+gem 'gritter', '~> 1.2'
+gem 'sweetify'
 
 gem 'anurag_view_tool', git: 'https://github.com/anurag-coupa/anurag_view_tool'
 gem "acts_as_list", "~> 1.0"
