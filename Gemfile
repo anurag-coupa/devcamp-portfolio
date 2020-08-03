@@ -62,6 +62,8 @@ gem 'gritter', '~> 1.2'
 gem 'sweetify'
 gem 'twitter', '~> 7.0'
 gem 'redis', '~> 4.2', '>= 4.2.1'
+gem 'redcarpet', '~> 3.5'
+gem 'coderay', '~> 1.1', '>= 1.1.3'
 
 gem 'anurag_view_tool', git: 'https://github.com/anurag-coupa/anurag_view_tool'
 gem "acts_as_list", "~> 1.0"
