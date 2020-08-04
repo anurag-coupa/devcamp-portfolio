@@ -6,11 +6,15 @@
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
 
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab" rel="stylesheet">
+
     <meta name="keywords" content= "<%= @seo_keywords %>" />
 
+    <%= favicon_link_tag 'favicons/other_favicon.ico' %>
+
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= stylesheet_link_tag '//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/le-frog/jquery-ui.min.css' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag '//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/le-frog/jquery-ui.min.css' %>
   </head>
 
   <body>
@@ -27,9 +31,6 @@
           <%= render "shared/application_footer" %>
 
           <%= alerts %>
-          
-          <%= source_helper("application") %>
-        
         </div>
       </div>
     </div>

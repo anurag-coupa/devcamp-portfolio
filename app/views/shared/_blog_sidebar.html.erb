@@ -3,6 +3,18 @@
     <h4>About</h4>
     <p>Anurag Bhaskar. <em>Engineer.</em> Learning about Ruby on Rails through a course and making an application.</p>
   </div>
+
+  <%= source_helper("alert alert-info blog-sidebar-source") %>
+
+  <% if @side_bar_topics %>
+    <div class="sidebar-module">
+      <h4>Topics</h4>
+      <% @side_bar_topics.each do |topic| %>
+        <p><%= link_to topic.title, topic_path(topic) %></p>
+      <% end %>
+    </div>
+  <% end %>
+
   <div class="sidebar-module">
     <h4>Elsewhere</h4>
     <ol class="list-unstyled social-links">
